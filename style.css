@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.title-red{
+    color: red;
+}
+.title-green{
+    color:green;
+}
+
+#id-title-red{
+    color: bisque;
+}
+
+.title-green, .title-red{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 0px auto;
+   
+}
+.box > div{
+    height: 50px;
+    width: 100%;
+    border: 1px solid blue;
+
+    background-color: white;
+    
+}
